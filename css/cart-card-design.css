@@ -1,0 +1,26 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.cart-product-image{
+    width: 75px;
+    height: 75px;
+}
+.btn-remove{
+    background-color: #FF0000;
+    width: 80px;
+    height: 48px;
+    color: #FFF;
+    border-radius: 10px;
+}
+.btn-remove:hover{
+    background-color: #b34141;
+}

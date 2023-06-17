@@ -1,0 +1,34 @@
+      .main-pagination {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .pagination-ul {
+          display: inline-flex;
+          list-style: none;
+          height: 25px;
+          width: 60px;
+      }
+
+      .page-item-number {
+          height: 25px;
+          width: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid rgb(207, 207, 207);
+          border-radius: 1px;
+      }
+
+      .page-item-number>a {
+          text-decoration: none;
+          color: rgb(48, 132, 249);
+      }
+
+      .page-item-number:hover {
+          background-color: #f1f1f1;
+      }
+    .page-active {
+              background: #ccc;
+}

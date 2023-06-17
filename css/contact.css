@@ -1,0 +1,62 @@
+:root{
+        --sonic-silver: hsl(0, 0%, 47%);
+        --eerie-black: hsl(0, 0%, 13%);
+        --ocean-green: hsl(152, 51%, 52%);
+        --email-color: #26abff;
+        --location-marker: #ff2c2c;
+}
+
+.contact-card-container{
+    border: 1px solid var(--sonic-silver);
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.mail{
+    border-left: 10px solid var(--email-color);
+}
+.whatsapp{
+    border-left: 10px solid var(--ocean-green);
+}
+.location{
+    border-left: 10px solid var(--location-marker);
+}
+.contact-icon{
+    width: 15%;
+}
+.contact-details{
+    width: 80%;
+}
+.contact-details a{
+    text-decoration: none;
+    color: var(--eerie-black);
+}
+.contact-details a:hover{
+    color: var(--sonic-silver);
+}
+.contact-icons{
+    font-size: 80px;
+}
+.mail-icon{
+    color: var(--email-color);
+} 
+.whatsapp-icon{
+    color: var(--ocean-green);
+} 
+.location-icon{
+    color: var(--location-marker);
+}
+@media (max-width: 1250px){
+    .contact-card-container{
+        justify-content: space-between;
+    }
+        .contact-icon {
+            width: 10%;
+        }
+    
+        .contact-details {
+            width: 80%;
+            margin-left: 80px;
+        }
+}
